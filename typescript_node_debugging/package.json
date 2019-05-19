@@ -1,0 +1,21 @@
+{
+  "name": "typescript_node_example",
+  "version": "0.0.0",
+  "description": "A project to demontrate how to work with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --inspect --respawn --transpileOnly ./app/app.ts",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "author": "Jaime Salas",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.17.0",
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.39"
+  }
+}
