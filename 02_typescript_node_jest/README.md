@@ -6,7 +6,7 @@
 npm i jest ts-jest supertest @types/jest @types/supertest -D
 ```
 
-* Ok with this on place, we're going to create a new file that will handle jest configuration. On root folder create:
+* Ok with this on place, we're going to create a new file that will handle jest configuration. Create on root folder __jest.config.js__:
 
 ```javascript
 module.exports = {
@@ -42,7 +42,7 @@ describe('simple test', () => {
     "dev": "ts-node-dev --inspect --respawn --transpileOnly ./app/app.ts",
     "prod": "tsc && node ./build/app.js",
     "test": "jest --verbose",
-    "test:watch": "jest --watchAll --verbose -i", // [1]
+    "test:watch": "jest --watchAll --verbose", // [1]
     "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand" // [2]
   },
 ```

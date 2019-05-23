@@ -31,7 +31,7 @@ npm i typescript -s
 npm run tsc -- --init
 ```
 
-* Uncomment __sourceMap__ and __outDir__
+* Uncomment __sourceMap__, and set __"outDir": "./build"__, __"rootDir": "./app",__ in __tsconfig.json__
 
 ### 3. Installig express
 
@@ -40,7 +40,7 @@ npm i express -S
 ```
 
 ```bash
-npm i @types/express -S
+npm i @types/express -D
 ```
 
 ### 4. With dependencies installed, we add a new folder __app__, and place in __app/app.ts__
