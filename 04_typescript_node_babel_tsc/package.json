@@ -22,7 +22,7 @@
   "author": "Jaime Salas",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.0",
+    "express": "^4.17.3",
     "typescript": "^3.4.5"
   },
   "devDependencies": {
